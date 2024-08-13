@@ -26,9 +26,10 @@ body {
 }
 
 .custom-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    display: flex;
+    flex: 1;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 #input {
@@ -36,6 +37,12 @@ body {
     padding: 10px;
     justify-content: space-around;
 }
+
+#input span{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .custom-gap-2 {
     gap: 10px;
@@ -79,3 +86,46 @@ body {
 .text-white {
     color: #fff;
 }
+
+
+@media (max-width: 450px){
+    #speed,
+    #size{
+        width: 110px;
+    }
+
+    #input #size{
+        margin-right: 10px;
+    }
+
+    .flex-container {
+        margin-left: 10px;
+        /* justify-content: center; */
+    }
+
+    .sort{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+}  
+
+@media (min-width: 760px){
+    #speed,
+    #size{
+        width: 200px;
+    }
+
+    #input #size{
+        margin-right: 20px;
+    }
+
+    .flex-container {
+        margin-left: 10px;
+    }
+
+    .custom-row,
+    .custom-row button{
+        font-size: 20px;
+    }
+} 
