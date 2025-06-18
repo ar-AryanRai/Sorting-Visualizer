@@ -2,7 +2,7 @@
 
 **Sorting-Visualizer** is an interactive web-based tool that visually demonstrates how various sorting algorithms work. It’s designed to help learners understand the inner workings of sorting logic in real time.
 
-🌐 **Live Demo**: [ar-aryanrai.github.io/Sorting-Visualizer](https://ar-aryanrai.github.io/Sorting-Visualizer/)
+🌐 **Live Demo**: [Click here to visit Sorting-Visualizer](https://ar-aryanrai.github.io/Sorting-Visualizer/)
 
 ---
 
